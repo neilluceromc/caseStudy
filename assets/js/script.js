@@ -1,4 +1,4 @@
-// TOGGLE MENU
+// TOGGLE MENU (pagaralan pa to, medyo hirap pa ako sa transform nito)
 const headerMenu = document.querySelector(".header__menu"),
   menuBtn = document.querySelector(".menu-btn"),
   headerMenuItems = headerMenu.querySelectorAll("li a");
@@ -12,7 +12,7 @@ headerMenuItems.forEach((item) => {
   });
 });
 
-// ADD FIXED HEADER
+// Pag nag scroll nandon badin ung header/navigation bar
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
